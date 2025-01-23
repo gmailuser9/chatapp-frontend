@@ -1,6 +1,6 @@
 import io from "socket.io-client";
 
-const socket = io("http://localhost:5000", {
+const socket = io("https://chatapp-server-q0mq.onrender.com", {
   transports: ["websocket"],
   pingTimeout: 60000,
   pingInterval: 25000,
