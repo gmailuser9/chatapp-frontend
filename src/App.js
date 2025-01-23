@@ -1,7 +1,7 @@
 import React from "react";
 import { UserProvider } from "./components/UserContext";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Navigate,
