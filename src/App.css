@@ -1,38 +1,434 @@
-.App {
+/* header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 4rem;
+  background-color: #1e90ff;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.header-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header-user {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header-user span {
+  padding: 0 0.5rem;
+}
+/* Dashboard.css */
+
+.dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dashboard-details {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.dashboard-detail {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+/* Login.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+/* Signup.css */
+
+.signup-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fefefe;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box {
+  padding: 20px;
+}
+
+.signup-title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.signup-form-body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.signup-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.signup-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.signup-button {
+  padding: 12px;
+  background-color: #4caf50;
   color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.signup-button:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.signup-login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-navigation-button {
+  color: #007bff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.login-navigation-button:hover {
+  color: #0056b3;
+}
+
+/* Chat.jsx */
+.chat-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.chat-error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.chat-inputs {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 2rem;
+  margin-bottom: 20px;
+}
+
+.chat-input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.chat-select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-button:hover {
+  background-color: #45a049;
+}
+
+.chat-section-title {
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.chat-unread-section,
+.chat-section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.chat-section {
+  width: 50%;
+}
+.chat-section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.chat-section1 span {
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+.chat-with {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.clickable {
+  cursor: pointer;
+}
+.chat-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.chat-active-section {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.chat-message-sender {
+  font-weight: bold;
+}
+
+.chat-message-time {
+  font-size: 12px;
+  color: gray;
+}
+
+.chat-message-content {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.chat-decrypt-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.chat-delete-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  padding: 0 1.5rem;
+  cursor: pointer;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3;
+}
+/* Errorpage.css */
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.error-title {
+  font-size: 100px;
+  font-weight: bold;
+  color: #dc3545;
+  margin: 0;
+}
+
+.error-message {
+  font-size: 20px;
+  color: #6c757d;
+  margin: 20px 0;
+}
+
+.error-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.error-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+  .header {
+    padding: 1.2rem 1.2rem;
   }
-  to {
-    transform: rotate(360deg);
+  .chat-title {
+    font-size: 1.6rem;
+  }
+  .chat-inputs {
+    width: 60%;
+  }
+  .chat-section-title {
+    font-size: 1.2rem;
+  }
+  .chat-section {
+    width: 80%;
+  }
+}
+@media (max-width: 360px) {
+  .header-logo {
+    font-size: 1.2rem;
+  }
+  .header-user {
+    font-size: 1.2rem;
+  }
+  .chat-inputs {
+    width: 80%;
+  }
+  .chat-input {
+    padding: 15px;
+  }
+  .chat-select {
+    padding: 12px;
+  }
+  .chat-button {
+    padding: 8px 22px;
+  }
+  .chat-section {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .chat-section1 {
+    padding: 0 10px;
+  }
+  .scroll-to-top {
+    bottom: 50px;
+    right: 20px;
+    padding: 0 15px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .chat-with {
+    font-size: 1rem;
+  }
+  .signup-container {
+    max-width: 300px;
+    padding: 0 10px;
+    margin: 10px 0;
+  }
+  .signup-box {
+    padding: 10px;
+  }
+  .signup-input {
+    padding: 10px 2px;
   }
 }
