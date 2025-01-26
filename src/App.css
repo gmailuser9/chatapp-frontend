@@ -1,3 +1,14 @@
+.use-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.blog {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
 /* header.css */
 
 .header {

@@ -63,6 +63,15 @@ const Login = () => {
           Signup here
         </button>
       </p>
+      <p className="signup-login-link">
+        Learn How to use CipherThread?
+        <button
+          className="login-navigation-button"
+          onClick={() => navigate("/Use")}
+        >
+          click here
+        </button>
+      </p>
     </div>
   );
 };

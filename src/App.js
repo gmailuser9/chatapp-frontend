@@ -13,6 +13,7 @@ import Chat from "./components/Chat";
 import Dashboard from "./components/Dashboard";
 import Errorpage from "./components/Errorpage";
 import Header from "./components/Header";
+import Use from "./components/Use";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/chat" element={<Chat />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/Use" element={<Use />} />
           <Route path="*" element={<Errorpage />} />
         </Routes>
       </Router>

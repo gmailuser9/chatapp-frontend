@@ -46,7 +46,7 @@ const Signup = () => {
     <div className="signup-container">
       <div className="signup-box">
         <div className="signup-form">
-          <h1 className="signup-title">Registration Page</h1>
+          <h1 className="signup-title">Enter Your Details</h1>
           <form className="signup-form-body" onSubmit={submitHandler}>
             <label className="signup-label">User ID (Unique):</label>
             <input
@@ -99,6 +99,15 @@ const Signup = () => {
               onClick={() => navigate("/login")}
             >
               Login here
+            </button>
+          </p>
+          <p className="signup-login-link">
+            Learn How to use CipherThread?
+            <button
+              className="login-navigation-button"
+              onClick={() => navigate("/Use")}
+            >
+              click here
             </button>
           </p>
         </div>

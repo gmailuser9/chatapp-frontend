@@ -1,7 +1,5 @@
 # CipherThread
 
-## You can access the Application Here:[CipherThread](https://cipherthread.onrender.com/)
-
 **CipherThread** is a chat application that provides end-to-end encrypted messaging, with additional features such as dynamic passkey generation.
 
 ## Features
@@ -23,7 +21,7 @@
 - Enter your Details.
 - Click on Signup button.
 
-![Signup](./public/images/signup.png)
+![Signup](./images/signup.png)
 
 ---
 
@@ -32,7 +30,7 @@
 - After opening the app, you'll be prompted to log in.
 - Enter your credentials to access your chat.
 
-![Login](./public/images/login.png)
+![Login](./images/login.png)
 
 ---
 
@@ -44,7 +42,7 @@
   - **Encrypted**: Message with encryption (you will need a passkey).
 - Send the message!
 
-![Send Message](./public/images/message.png)
+![Send Message](./images/message.png)
 
 ---
 
@@ -53,7 +51,7 @@
 - If a message is encrypted, enter the **passkey** to decrypt it.
 - Decrypt a message by clicking the **Decrypt** button.
 
-![Decrypt Message](./public/images/decrypt.png)
+![Decrypt Message](./images/decrypt.png)
 
 ---
 
@@ -62,7 +60,7 @@
 - Any unread messages will be displayed at the top of the chat.
 - Mark messages as **seen** once you've read them.
 
-![Unread Messages](./public/images/unread.png)
+![Unread Messages](./images/unread.png)
 
 ---
 
@@ -72,7 +70,7 @@
 - You can click on any chat to view the full conversation.
 - You can delete individual messages from the chat as well.
 
-![Chats](./public/images/chat.png)
+![Chats](./images/chat.png)
 
 ---
 
@@ -81,7 +79,7 @@
 - you can see you details in Profile Section.
 - Click on the Username at top right to access the Profile details.
 
-![Profile](./public/images/profile.png)
+![Profile](./images/profile.png)
 
 ---
 
