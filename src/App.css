@@ -392,6 +392,9 @@
   .chat-section {
     width: 80%;
   }
+  .blog img {
+    width: 250px;
+  }
 }
 @media (max-width: 360px) {
   .header-logo {
@@ -424,6 +427,12 @@
     right: 20px;
     padding: 0 15px;
     font-size: 2rem;
+  }
+  .blog {
+    width: 85%;
+  }
+  .blog img {
+    width: 250px;
   }
 }
 
