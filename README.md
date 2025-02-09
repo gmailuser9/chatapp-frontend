@@ -106,3 +106,67 @@
 - You can still send and decrypt messages as usual.
 
 ---
+
+# 📜 Contribution Guidelines
+
+## 🌟 How to Contribute?
+
+**We welcome contributions from the community! Follow these steps to get started:**
+
+### 🍴 Fork the Repository
+Click on the **Fork** button at the top-right corner of this repo. This will create a copy of the repository in your GitHub account.
+
+### 💻 Clone the Repository
+
+```bash
+git clone https://github.com/SrigadaAkshayKumar/chatapp-frontend.git
+cd chatapp
+```
+
+### 🌿 Create a New Branch
+
+```bash
+Copy
+git checkout -b feature-branch-name
+```
+
+### 🛠 Make Your Changes
+Implement your feature, fix a bug, or improve documentation. Follow best coding practices and maintain clean, readable code.
+
+### ✅ Commit Your Changes
+
+```bash
+Copy
+git add .
+git commit -m "Added [Feature/Fix]: Short Description"
+```
+
+### 🚀 Push to Your Fork
+
+```bash
+Copy
+git push origin feature-branch-name
+```
+
+### 🔀 Create a Pull Request
+
+- Go to the original repository on GitHub. Click on "New Pull Request". Select your fork and branch, then submit the pull request.
+
+### 📢 Contribution Rules
+## **📌 Follow these rules to ensure smooth collaboration:**
+
+**✔️ Code Quality: Follow clean coding principles and maintain proper indentation.**
+
+**✔️ Descriptive Commits: Write meaningful commit messages.**
+
+**✔️ Issue First: Always open an issue before making major changes.**
+
+**✔️ Respect PR Reviews: Make necessary improvements as suggested by maintainers.**
+
+**✔️ No Plagiarism: All contributions must be original work.**
+
+**✔️ Be Respectful: We value a friendly and inclusive community.**
+
+### 💡 Need Help?
+
+- If you have any questions, feel free to open an issue or start a discussion. We're happy to help! 🚀
