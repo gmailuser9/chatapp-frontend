@@ -27,7 +27,7 @@
 
 ---
 
-### 1. **Login**
+### 2. **Login**
 
 - After opening the app, you'll be prompted to log in.
 - Enter your credentials to access your chat.
@@ -36,7 +36,7 @@
 
 ---
 
-### 2. **Send a Message**
+### 3. **Send a Message**
 
 - Type the recipient's **user ID** and the **message**.
 - Choose the message type:
@@ -48,7 +48,16 @@
 
 ---
 
-### 3. **Decrypt a Message**
+### 4. **End-to End Encryption**
+
+- The Encrypted message is stored in the Database in Encrypted Format.
+- As shown in the below only the sender and receiver knows the Encrypted message
+
+![Send Message](./public/images/encrypt.png)
+
+---
+
+### 5. **Decrypt a Message**
 
 - If a message is encrypted, enter the **passkey** to decrypt it.
 - Decrypt a message by clicking the **Decrypt** button.
@@ -57,7 +66,7 @@
 
 ---
 
-### 4. **Unread Messages**
+### 6. **Unread Messages**
 
 - Any unread messages will be displayed at the top of the chat.
 - Mark messages as **seen** once you've read them.
@@ -66,7 +75,7 @@
 
 ---
 
-### 5. **Chats**
+### 7. **Chats**
 
 - Once a conversation is started, it will appear under **Chats**.
 - You can click on any chat to view the full conversation.
@@ -76,7 +85,7 @@
 
 ---
 
-### 5. **Profile**
+### 8. **Profile**
 
 - you can see you details in Profile Section.
 - Click on the Username at top right to access the Profile details.
@@ -85,13 +94,13 @@
 
 ---
 
-### 5. **Chat Backup**
+### 9. **Chat Backup**
 
 - You can request for a chat Backup on the Profile page.
 
 ---
 
-### 6. **Mobile View**
+### 10. **Mobile View**
 
 - On mobile devices, clicking on a chat will navigate you to the chat page.
 - You can still send and decrypt messages as usual.
