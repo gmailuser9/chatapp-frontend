@@ -42,7 +42,7 @@
 - Choose the message type:
   - **Direct**: Regular message.
   - **Encrypted**: Message with encryption (you will need a passkey).
-- Send the message!
+- Send the message
 
 ![Send Message](./public/images/message.png)
 
